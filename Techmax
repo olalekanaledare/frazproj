@@ -22,7 +22,7 @@
 
     - name: download web files from github
       get_url:
-        url: https://github.com/olalekanaledare/Ansible-Project.git
+        url: https://github.com/olalekanaledare/Ansibletech.git
         dest: /var/www/html/
 
     - name: unzip the zip folder
