@@ -7,13 +7,13 @@
 
   tasks:
     - name: update ec2 instance
-      yum:
+      apt:
         name: "*"
         state: latest
         update_cache: yes
 
     - name: install apache server
-      yum:
+      apt:
         name: httpd
         state: latest
 
