@@ -1,6 +1,6 @@
 ---
 
-- name: deploy techmax websites
+- name: deploy techmax website
   hosts: all
   become: yes
   become_user: root
